@@ -1,0 +1,60 @@
+.TodoItem {
+  height: 4rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  padding: 0.4rem;
+  align-items: stretch;
+}
+
+.TodoItemContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  cursor: default;
+}
+
+.TodoItemContent > p {
+  font-size: 1.5rem;
+}
+
+.TodoItemIcon {
+  color: #eee;
+  text-align: center;
+  width: 3rem;
+  font-size: 2rem !important;
+  cursor: pointer;
+  align-self: center;
+}
+
+.TodoItemIconClose {
+  color: #944e4e;
+  text-align: center;
+  width: 3rem;
+  font-size: 1.3rem !important;
+  cursor: pointer;
+  font-weight: lighter;
+  display: none !important;
+}
+
+.Checked {
+  color: #33bb33 !important;
+}
+
+.CheckedText {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.TodoItemContent:hover .TodoItemIconClose {
+  display: inline-block !important;
+}
+
+.EditTodo {
+  display: block;
+  height: 100% !important;
+  flex-grow: 1;
+  padding: 0 .4rem;
+  outline: none;
+  border: 1px solid #ccc;
+}

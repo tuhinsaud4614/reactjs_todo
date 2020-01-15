@@ -1,0 +1,32 @@
+.ControllerBtn {
+  display: block;
+  height: 100%;
+  margin: 0.2rem;
+  padding: 0.3rem;
+  box-shadow: none;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  background: transparent;
+  overflow: hidden;
+}
+
+.ControllerBtn:hover {
+  border: 1px solid #eee;
+}
+
+.Active {
+  border: 1px solid #ccc !important;
+}
+
+.ControllerBtn:hover.Disabled{
+  border: none;
+}
+
+.Disabled {
+  cursor: default;
+  border: none;
+  border-radius: 0;
+  color: transparent ;
+}

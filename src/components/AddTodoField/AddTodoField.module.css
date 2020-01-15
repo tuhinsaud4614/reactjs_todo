@@ -1,0 +1,11 @@
+.TodoField {
+    display: block;
+    height: 100%;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+.TodoField::placeholder {
+    color: #ccc;
+}

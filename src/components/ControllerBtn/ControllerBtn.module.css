@@ -10,17 +10,36 @@
   border-radius: 2px;
   background: transparent;
   overflow: hidden;
+  color: #ccc;
 }
 
 .ControllerBtn:hover {
   border: 1px solid #eee;
 }
 
+.ClearedCompletedBtn {
+  display: block;
+  height: 100%;
+  margin: 0.2rem;
+  padding: 0.3rem;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  overflow: hidden;
+  color: #ccc;
+}
+
+.ClearedCompletedBtn:hover {
+  text-decoration: underline;
+}
+
 .Active {
   border: 1px solid #ccc !important;
 }
 
-.ControllerBtn:hover.Disabled{
+.ControllerBtn:hover.Disabled {
   border: none;
 }
 
@@ -28,5 +47,5 @@
   cursor: default;
   border: none;
   border-radius: 0;
-  color: transparent ;
+  color: transparent;
 }

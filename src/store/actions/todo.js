@@ -5,6 +5,11 @@ export const addTodo = todoData => ({
   value: todoData
 });
 
+export const fetchTodo = allTodo => ({
+  type: actions.FETCH_TODO,
+  value: allTodo
+});
+
 export const clearCompletedTodo = () => ({
   type: actions.CLEAR_COMPLETED_TODO
 });

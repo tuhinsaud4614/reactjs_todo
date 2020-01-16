@@ -1,4 +1,5 @@
 export {
+  fetchTodo,
   addTodo,
   clearCompletedTodo,
   addAsACompleteTodo,

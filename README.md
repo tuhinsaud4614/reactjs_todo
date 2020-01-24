@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Todo App
+This project made with react and react js project. You can add your todo and can control of it.
 
 ## Available Scripts
 
